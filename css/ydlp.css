@@ -1,0 +1,657 @@
+:root{
+    /* cores */
+    --black: rgb(0, 0, 0);
+    --black2: rgb(15, 15, 15);
+    --black3: rgb(30, 30, 30);
+    --black4: rgb(45, 45, 45);
+    --black5: rgb(60, 60, 60);
+
+    --blue: rgb(0, 0, 195);
+    --blue2: rgb(0, 0, 210);
+    --blue3: rgb(0, 0, 225);
+    --blue4: rgb(0, 0, 240);
+    --blue5: rgb(0, 0, 255);
+    --blue6: rgb(15, 15, 255);
+    --blue7: rgb(30, 30, 255);
+    --blue8: rgb(45, 45, 255);
+    --blue9: rgb(60, 60, 255);
+    --blue10: rgb(75, 75, 255);
+    --blue11: rgb(90, 90, 255);
+    --blue12: rgb(105, 105, 255);
+
+    --brown: rgb(165, 42, 42);
+    --brown2: rgb(165, 15, 15);
+    --brown3: rgb(165, 30, 30);
+    --brown4: rgb(165, 45, 45);
+    --brown5: rgb(165, 60, 60);
+    --brown6: rgb(165, 75, 75);
+    --brown7: rgb(165, 90, 90);
+    --brown8: rgb(165, 105, 105);
+    --brown9: rgb(165, 120, 120);
+    --brown10: rgb(165, 135, 135);
+    --brown11: rgb(165, 150, 150);
+
+    --cyan: rgb(0, 255, 255);
+    --cyan2: rgb(15, 255, 255);
+    --cyan3: rgb(30, 255, 255);
+    --cyan4: rgb(45, 255, 255);
+    --cyan5: rgb(60, 255, 255);
+    --cyan6: rgb(75, 255, 255);
+    --cyan7: rgb(90, 255, 255);
+    --cyan8: rgb(105, 255, 255);
+    --cyan9: rgb(120, 255, 255);
+
+    --darkblue: rgb(0, 0, 15);
+    --darkblue2: rgb(0, 0, 30);
+    --darkblue3: rgb(0, 0, 45);
+    --darkblue4: rgb(0, 0, 60);
+    --darkblue5: rgb(0, 0, 75);
+    --darkblue6: rgb(0, 0, 90);
+    --darkblue7: rgb(0, 0, 105);
+    --darkblue8: rgb(0, 0, 120);
+    --darkblue9: rgb(0, 0, 135);
+    --darkblue10: rgb(0, 0, 150);
+    --darkblue11: rgb(0, 0, 165);
+    --darkblue12: rgb(0, 0, 180);
+
+    --darkgreen: rgb(0, 15, 0);
+    --darkgreen2: rgb(0, 30, 0);
+    --darkgreen3: rgb(0, 45, 0);
+    --darkgreen4: rgb(0, 60, 0);
+    --darkgreen5: rgb(0, 75, 0);
+    --darkgreen6: rgb(0, 90, 0);
+    --darkgreen7: rgb(0, 105, 0);
+    --darkgreen8: rgb(0, 120, 0);
+    --darkgreen9: rgb(0, 135, 0);
+    --darkgreen10: rgb(0, 150, 0);
+    --darkgreen11: rgb(0, 165, 0);
+    --darkgreen12: rgb(0, 180, 0);
+
+    --darkmblue: rgb(0, 15, 255);
+    --darkmblue2: rgb(0, 30, 255);
+    --darkmblue3: rgb(0, 45, 255);
+    --darkmblue4: rgb(0, 60, 255);
+    --darkmblue5: rgb(0, 75, 255);
+    --darkmblue6: rgb(0, 90, 255);
+
+    --darkmgreen: rgb(0, 15, 15);
+    --darkmgreen2: rgb(0, 30, 30);
+    --darkmgreen3: rgb(0, 45, 45);
+    --darkmgreen4: rgb(0, 60, 60);
+    --darkmgreen5: rgb(0, 75, 75);
+    --darkmgreen6: rgb(0, 90, 90);
+
+    --darkpink: rgb(255, 15, 200);
+    --darkpink2: rgb(255, 30, 200);
+    --darkpink3: rgb(255, 45, 200);
+    --darkpink4: rgb(255, 60, 200);
+    --darkpink5: rgb(255, 75, 200);
+    --darkpink6: rgb(255, 90, 200);
+
+    --darkpurple: rgb(15, 0, 15);
+    --darkpurple2: rgb(30, 0, 30);
+    --darkpurple3: rgb(45, 0, 45);
+    --darkpurple4: rgb(60, 0, 60);
+    --darkpurple5: rgb(75, 0, 75);
+    --darkpurple6: rgb(90, 0, 90);
+
+    --darkred: rgb(15, 0, 0);
+    --darkred2: rgb(30, 0, 0);
+    --darkred3: rgb(45, 0, 0);
+    --darkred4: rgb(60, 0, 0);
+    --darkred5: rgb(75, 0, 0);
+    --darkred6: rgb(90, 0, 0);
+    --darkred7: rgb(105, 0, 0);
+    --darkred8: rgb(120, 0, 0);
+    --darkred9: rgb(135, 0, 0);
+    --darkred10: rgb(150, 0, 0);
+    --darkred11: rgb(165, 0, 0);
+    --darkred12: rgb(180, 0, 0);
+
+    --darkwine: rgb(255, 0, 15);
+    --darkwine2: rgb(255, 0, 30);
+    --darkwine3: rgb(255, 0, 45);
+    --darkwine4: rgb(255, 0, 60);
+    --darkwine5: rgb(255, 0, 75);
+    --darkwine6: rgb(255, 0, 90);
+
+    --fuchsia: rgb(255, 0, 195);
+    --fuchsia2: rgb(255, 0, 210);
+    --fuchsia3: rgb(255, 0, 225);
+    --fuchsia4: rgb(255, 0, 240);
+    --fuchsia5: rgb(255, 0, 255);
+    --fuchsia6: rgb(255, 15, 255);
+    --fuchsia7: rgb(255, 30, 255);
+    --fuchsia8: rgb(255, 45, 255);
+    --fuchsia9: rgb(255, 60, 255);
+
+    --green: rgb(0, 195, 0);
+    --green2: rgb(0, 210, 0);
+    --green3: rgb(0, 225, 0);
+    --green4: rgb(0, 240, 0);
+    --green5: rgb(0, 255, 0);
+    --green6: rgb(15, 255, 15);
+    --green7: rgb(30, 255, 30);
+    --green8: rgb(45, 255, 45);
+    --green9: rgb(60, 255, 60);
+    --green10: rgb(75, 255, 75);
+    --green11: rgb(90, 255, 90);
+    --green12: rgb(105, 255, 105);
+
+    --grey: rgb(75, 75, 75);
+    --grey2: rgb(90, 90, 90);
+    --grey3: rgb(105, 105, 105);
+    --grey4: rgb(120, 120, 120);
+
+    --lightblue: rgb(120, 120, 255);
+    --lightblue2: rgb(135, 135, 255);
+    --lightblue3: rgb(150, 150, 255);
+    --lightblue4: rgb(165, 165, 255);
+    --lightblue5: rgb(180, 180, 255);
+    --lightblue6: rgb(195, 195, 255);
+    --lightblue7: rgb(210, 210, 255);
+    --lightblue8: rgb(225, 225, 255);
+    --lightblue9: rgb(240, 240, 255);
+
+    --lightcyan: rgb(135, 255, 255);
+    --lightcyan2: rgb(150, 255, 255);
+    --lightcyan3: rgb(165, 255, 255);
+    --lightcyan4: rgb(180, 255, 255);
+    --lightcyan5: rgb(195, 255, 255);
+    --lightcyan6: rgb(210, 255, 255);
+    --lightcyan7: rgb(225, 255, 255);
+    --lightcyan8: rgb(240, 255, 255);
+
+    --lightfuchsia: rgb(255, 75, 255);
+    --lightfuchsia2: rgb(255, 90, 255);
+    --lightfuchsia3: rgb(255, 105, 255);
+    --lightfuchsia4: rgb(255, 120, 255);
+    --lightfuchsia5: rgb(255, 135, 255);
+    --lightfuchsia6: rgb(255, 150, 255);
+    --lightfuchsia7: rgb(255, 165, 255);
+    --lightfuchsia8: rgb(255, 180, 255);
+    --lightfuchsia9: rgb(255, 195, 255);
+    --lightfuchsia10: rgb(255, 210, 255);
+    --lightfuchsia11: rgb(255, 225, 255);
+    --lightfuchsia12: rgb(255, 240, 255);
+
+    --lightgreen: rgb(120, 255, 120);
+    --lightgreen2: rgb(135, 255, 135);
+    --lightgreen3: rgb(150, 255, 150);
+    --lightgreen4: rgb(165, 255, 165);
+    --lightgreen5: rgb(180, 255, 180);
+    --lightgreen6: rgb(195, 255, 195);
+    --lightgreen7: rgb(210, 255, 210);
+    --lightgreen8: rgb(225, 255, 225);
+    --lightgreen9: rgb(240, 255, 240);
+
+    --lightmblue: rgb(0, 195, 255);
+    --lightmblue2: rgb(0, 210, 255);
+    --lightmblue3: rgb(0, 225, 255);
+    --lightmblue4: rgb(0, 240, 255);
+
+    --lightmgreen: rgb(0, 195, 195);
+    --lightmgreen2: rgb(0, 210, 210);
+    --lightmgreen3: rgb(0, 225, 225);
+    --lightmgreen4: rgb(0, 240, 240);
+
+    --lightpink: rgb(255, 180, 200);
+    --lightpink2: rgb(255, 195, 200);
+    --lightpink3: rgb(255, 210, 200);
+    --lightpink4: rgb(255, 225, 200);
+    --lightpink5: rgb(255, 240, 200);
+
+    --lightpurple: rgb(195, 0, 195);
+    --lightpurple2: rgb(210, 0, 210);
+    --lightpurple3: rgb(225, 0, 225);
+    --lightpurple4: rgb(240, 0, 240);
+
+    --lightred: rgb(255, 120, 120);
+    --lightred2: rgb(255, 135, 135);
+    --lightred3: rgb(255, 150, 150);
+    --lightred4: rgb(255, 165, 165);
+    --lightred5: rgb(255, 180, 180);;
+    --lightred6: rgb(255, 195, 195);
+    --lightred7: rgb(255, 210, 210);
+    --lightred8: rgb(255, 225, 225);
+    --lightred9: rgb(255, 240, 240);
+
+    --lightyellow: rgb(255, 255, 135);
+    --lightyellow2: rgb(255, 255, 150);
+    --lightyellow3: rgb(255, 255, 165);
+    --lightyellow4: rgb(255, 255, 180);
+    --lightyellow5: rgb(255, 255, 195);
+    --lightyellow6: rgb(255, 255, 210);
+    --lightyellow7: rgb(255, 255, 225);
+    --lightyellow8: rgb(255, 255, 240);
+
+    --mblue: rgb(0, 105, 255);
+    --mblue2: rgb(0, 120, 255);
+    --mblue3: rgb(0, 135, 255);
+    --mblue4: rgb(0, 150, 255);
+    --mblue5: rgb(0, 165, 255);
+    --mblue6: rgb(0, 180, 255);
+
+    --mgreen: rgb(0, 105, 105);
+    --mgreen2: rgb(0, 120, 120);
+    --mgreen3: rgb(0, 135, 135);
+    --mgreen4: rgb(0, 150, 150);
+    --mgreen5: rgb(0, 165, 165);
+    --mgreen6: rgb(0, 180, 180);
+
+    --orange: rgb(255, 90, 0);
+    --orange2: rgb(255, 105, 0);
+    --orange3: rgb(255, 120, 0);
+    --orange4: rgb(255, 135, 0);
+    --orange5: rgb(255, 150, 0);
+    --orange6: rgb(255, 165, 0);
+
+    --pink: rgb(255, 105, 200);
+    --pink2: rgb(255, 120, 200);
+    --pink3: rgb(255, 135, 200);
+    --pink4: rgb(255, 150, 200);
+    --pink5: rgb(255, 165, 200);
+
+    --purple: rgb(105, 0, 105);
+    --purple2: rgb(120, 0, 120);
+    --purple3: rgb(135, 0, 135);
+    --purple4: rgb(150, 0, 150);
+    --purple5: rgb(165, 0, 165);
+    --purple6: rgb(180, 0, 180);
+
+    --red: rgb(195, 0, 0);
+    --red2: rgb(210, 0, 0);
+    --red3: rgb(225, 0, 0);
+    --red4: rgb(240, 0, 0);
+    --red5: rgb(255, 0, 0);
+    --red6: rgb(255, 15, 15);
+    --red7: rgb(255, 30, 30);
+    --red8: rgb(255, 45, 40);
+    --red9: rgb(255, 60, 60);
+    --red10: rgb(255, 75, 75);
+    --red11: rgb(255, 90, 90);
+    --red12: rgb(255, 105, 105);
+
+    --redorange: rgb(255, 15, 0);
+    --redorange2: rgb(255, 30, 0);
+    --redorange3: rgb(255, 45, 0);
+    --redorange4: rgb(255, 60, 0);
+    --redorange5: rgb(255, 75, 0);
+
+    --silver: rgb(135, 135, 135);
+    --silver2: rgb(150, 150, 150);
+    --silver3: rgb(165, 165, 165);
+    --silver4: rgb(180, 180, 180);
+
+    --white: rgb(255, 255, 255);
+    --white2: rgb(240, 240, 240);
+    --white3: rgb(225, 225, 225);
+    --white4: rgb(210, 210, 210);
+    --white5: rgb(195, 195, 195);
+
+    --wine: rgb(255, 0, 105);
+    --wine2: rgb(255, 0, 120);
+    --wine3: rgb(255, 0, 135);
+    --wine4: rgb(255, 0, 150);
+    --wine5: rgb(255, 0, 165);
+    --wine6: rgb(255, 0, 180);
+
+    --yellorange: rgb(255, 180, 0);
+    --yellorange2: rgb(255, 195, 0);
+    --yellorange2: rgb(255, 210, 0);
+    --yellorange3: rgb(255, 225, 0);
+    --yellorange4: rgb(255, 240, 0);
+
+    --yellow: rgb(255, 255, 0);
+    --yellow2: rgb(255, 255, 15);
+    --yellow3: rgb(255, 255, 30);
+    --yellow4: rgb(255, 255, 45);
+    --yellow5: rgb(255, 255, 60);
+    --yellow6: rgb(255, 255, 75);
+    --yellow7: rgb(255, 255, 90);
+    --yellow8: rgb(255, 255, 105);
+    --yellow9: rgb(255, 255, 120);
+
+
+/* ------ YDLP DIVISION CLASSES ------ */
+    
+    --box-c-margin-left: 50%;
+    --box-c-translate: translate(-50%);
+}
+
+
+/* -------------------------- YDLP BACLGROUNDS ------------------------ */
+/* black backgrounds */
+.bg-black{background-color: var(--black)}
+.bg-black2{background-color: var(--black2)}
+.bg-black3{background-color: var(--black3)}
+.bg-black4{background-color: var(--black4)}
+.bg-black5{background-color: var(--black5)}
+/* blue backgrounds */
+.bg-blue{background-color: var(--blue)}
+.bg-blue2{background-color: var(--blue2)}
+.bg-blue3{background-color: var(--blue3)}
+.bg-blue4{background-color: var(--blue4)}
+.bg-blue5{background-color: var(--blue5)}
+.bg-blue6{background-color: var(--blue6)}
+.bg-blue7{background-color: var(--blue7)}
+.bg-blue8{background-color: var(--blue8)}
+.bg-blue9{background-color: var(--blue9)}
+.bg-blue10{background-color: var(--blue10)}
+.bg-blue11{background-color: var(--blue11)}
+.bg-blue12{background-color: var(--blue12)}
+/* brown backgrounds */
+.bg-brown{background-color: var(--brown)}
+.bg-brown2{background-color: var(--brown2)}
+.bg-brown3{background-color: var(--brown3)}
+.bg-brown4{background-color: var(--brown4)}
+.bg-brown5{background-color: var(--brown5)}
+.bg-brown6{background-color: var(--brown6)}
+.bg-brown7{background-color: var(--brown7)}
+.bg-brown8{background-color: var(--brown8)}
+.bg-brown9{background-color: var(--brown9)}
+.bg-brown10{background-color: var(--brown10)}
+.bg-brown11{background-color: var(--brown11)}
+/* cyan backgrounds */
+.bg-cyan{background-color: var(--cyan)}
+.bg-cyan2{background-color: var(--cyan2)}
+.bg-cyan3{background-color: var(--cyan3)}
+.bg-cyan4{background-color: var(--cyan4)}
+.bg-cyan5{background-color: var(--cyan5)}
+.bg-cyan6{background-color: var(--cyan6)}
+.bg-cyan7{background-color: var(--cyan7)}
+.bg-cyan8{background-color: var(--cyan8)}
+.bg-cyan9{background-color: var(--cyan9)}
+/* darkblue backgrounds */
+.bg-darkblue{background-color: var(--darkblue)}
+.bg-darkblue2{background-color: var(--darkblue2)}
+.bg-darkblue3{background-color: var(--darkblue3)}
+.bg-darkblue4{background-color: var(--darkblue4)}
+.bg-darkblue5{background-color: var(--darkblue5)}
+.bg-darkblue6{background-color: var(--darkblue6)}
+.bg-darkblue7{background-color: var(--darkblue7)}
+.bg-darkblue8{background-color: var(--darkblue8)}
+.bg-darkblue9{background-color: var(--darkblue9)}
+.bg-darkblue10{background-color: var(--darkblue10)}
+.bg-darkblue11{background-color: var(--darkblue11)}
+.bg-darkblue12{background-color: var(--darkblue12)}
+/* darkgreen backgrounds */
+.bg-darkgreen{background-color: var(--darkgreen)}
+.bg-darkgreen2{background-color: var(--darkgreen2)}
+.bg-darkgreen3{background-color: var(--darkgreen3)}
+.bg-darkgreen4{background-color: var(--darkgreen4)}
+.bg-darkgreen5{background-color: var(--darkgreen5)}
+.bg-darkgreen6{background-color: var(--darkgreen6)}
+.bg-darkgreen7{background-color: var(--darkgreen7)}
+.bg-darkgreen8{background-color: var(--darkgreen8)}
+.bg-darkgreen9{background-color: var(--darkgreen9)}
+.bg-darkgreen10{background-color: var(--darkgreen10)}
+.bg-darkgreen11{background-color: var(--darkgreen11)}
+.bg-darkgreen12{background-color: var(--darkgreen12)}
+/* darkmblue backgrounds */
+.bg-darkmblue{background-color: var(--darkmblue)}
+.bg-darkmblue2{background-color: var(--darkmblue2)}
+.bg-darkmblue3{background-color: var(--darkmblue3)}
+.bg-darkmblue4{background-color: var(--darkmblue4)}
+.bg-darkmblue5{background-color: var(--darkmblue5)}
+.bg-darkmblue6{background-color: var(--darkmblue6)}
+/* darkmgreen backgrunds */
+.bg-darkmgreen{background-color: var(--darkmgreen)}
+.bg-darkmgreen2{background-color: var(--darkmgreen2)}
+.bg-darkmgreen3{background-color: var(--darkmgreen3)}
+.bg-darkmgreen4{background-color: var(--darkmgreen4)}
+.bg-darkmgreen5{background-color: var(--darkmgreen5)}
+.bg-darkmgreen6{background-color: var(--darkmgreen6)}
+/* darkpink backgrounds */
+.bg-darkpink{background-color: var(--darkpink)}
+.bg-darkpink2{background-color: var(--darkpink2)}
+.bg-darkpink3{background-color: var(--darkpink3)}
+.bg-darkpink4{background-color: var(--darkpink4)}
+.bg-darkpink5{background-color: var(--darkpink5)}
+.bg-darkpink6{background-color: var(--darkpink6)}
+/* darkpurple backgrounds */
+.bg-darkpurple{background-color: var(--darkpurple)}
+.bg-darkpurple2{background-color: var(--darkpurple2)}
+.bg-darkpurple3{background-color: var(--darkpurple3)}
+.bg-darkpurple4{background-color: var(--darkpurple4)}
+.bg-darkpurple5{background-color: var(--darkpurple5)}
+.bg-darkpurple6{background-color: var(--darkpurple6)}
+/* darkred backgrounds */
+.bg-darkred{background-color: var(--darkred)}
+.bg-darkred2{background-color: var(--darkred2)}
+.bg-darkred3{background-color: var(--darkred3)}
+.bg-darkred4{background-color: var(--darkred4)}
+.bg-darkred5{background-color: var(--darkred5)}
+.bg-darkred6{background-color: var(--darkred6)}
+.bg-darkred7{background-color: var(--darkred7)}
+.bg-darkred8{background-color: var(--darkred8)}
+.bg-darkred9{background-color: var(--darkred9)}
+.bg-darkred10{background-color: var(--darkred10)}
+.bg-darkred11{background-color: var(--darkred11)}
+.bg-darkred12{background-color: var(--darkred12)}
+/* darkwine backgrounds */
+.bg-darkwine{background-color: var(--darkwine)}
+.bg-darkwine2{background-color: var(--darkwine2)}
+.bg-darkwine3{background-color: var(--darkwine3)}
+.bg-darkwine4{background-color: var(--darkwine4)}
+.bg-darkwine5{background-color: var(--darkwine5)}
+.bg-darkwine6{background-color: var(--darkwine6)}
+/* green backgrounds */
+.bg-green{background-color: var(--green)}
+.bg-green2{background-color: var(--green2)}
+.bg-green3{background-color: var(--green3)}
+.bg-green4{background-color: var(--green4)}
+.bg-green5{background-color: var(--green5)}
+.bg-green6{background-color: var(--green6)}
+.bg-green7{background-color: var(--green7)}
+.bg-green8{background-color: var(--green8)}
+.bg-green9{background-color: var(--green9)}
+.bg-green10{background-color: var(--green10)}
+.bg-green11{background-color: var(--green11)}
+.bg-green12{background-color: var(--green12)}
+/* grey backgrounds */
+.bg-grey{background-color: var(--grey)}
+.bg-grey2{background-color: var(--grey2)}
+.bg-grey3{background-color: var(--grey3)}
+.bg-grey4{background-color: var(--grey4)}
+/* lightblue backgrounds */
+.bg-lightblue{background-color: var(--lightblue)}
+.bg-lightblue2{background-color: var(--lightblue2)}
+.bg-lightblue3{background-color: var(--lightblue3)}
+.bg-lightblue4{background-color: var(--lightblue4)}
+.bg-lightblue5{background-color: var(--lightblue5)}
+.bg-lightblue6{background-color: var(--lightblue6)}
+.bg-lightblue7{background-color: var(--lightblue7)}
+.bg-lightblue8{background-color: var(--lightblue8)}
+.bg-lightblue9{background-color: var(--lightblue9)}
+/* lightcyan backgrounds */
+.bg-lightcyan{background-color: var(--lightcyan)}
+.bg-lightcyan2{background-color: var(--lightcyan2)}
+.bg-lightcyan3{background-color: var(--lightcyan3)}
+.bg-lightcyan4{background-color: var(--lightcyan4)}
+.bg-lightcyan5{background-color: var(--lightcyan5)}
+.bg-lightcyan6{background-color: var(--lightcyan6)}
+.bg-lightcyan7{background-color: var(--lightcyan7)}
+.bg-lightcyan8{background-color: var(--lightcyan8)}
+/* lightfuchsia backgrounds */
+.bg-lightfuchsia{background-color: var(--lightfuchsia)}
+.bg-lightfuchsia2{background-color: var(--lightfuchsia2)}
+.bg-lightfuchsia3{background-color: var(--lightfuchsia3)}
+.bg-lightfuchsia4{background-color: var(--lightfuchsia4)}
+.bg-lightfuchsia5{background-color: var(--lightfuchsia5)}
+.bg-lightfuchsia6{background-color: var(--lightfuchsia6)}
+.bg-lightfuchsia7{background-color: var(--lightfuchsia7)}
+.bg-lightfuchsia8{background-color: var(--lightfuchsia8)}
+.bg-lightfuchsia9{background-color: var(--lightfuchsia9)}
+.bg-lightfuchsia10{background-color: var(--lightfuchsia10)}
+.bg-lightfuchsia11{background-color: var(--lightfuchsia11)}
+.bg-lightfuchsia12{background-color: var(--lightfuchsia12)}
+/* lightgreen backgrounds */
+.bg-lightgreen{background-color: var(--lightgreen)}
+.bg-lightgreen2{background-color: var(--lightgreen2)}
+.bg-lightgreen3{background-color: var(--lightgreen3)}
+.bg-lightgreen4{background-color: var(--lightgreen4)}
+.bg-lightgreen5{background-color: var(--lightgreen5)}
+.bg-lightgreen6{background-color: var(--lightgreen6)}
+.bg-lightgreen7{background-color: var(--lightgreen7)}
+.bg-lightgreen8{background-color: var(--lightgreen8)}
+.bg-lightgreen9{background-color: var(--lightgreen9)}
+/* lightmblue backgrounds */
+.bg-lightmblue{background-color: var(--lightmblue)}
+.bg-lightmblue2{background-color: var(--lightmblue2)}
+.bg-lightmblue3{background-color: var(--lightmblue3)}
+.bg-lightmblue4{background-color: var(--lightmblue4)}
+/* lightmgreen backgrounds */
+.bg-lightmgreen{background-color: var(--lightmgreen)}
+.bg-lightmgreen2{background-color: var(--lightmgreen2)}
+.bg-lightmgreen3{background-color: var(--lightmgreen3)}
+.bg-lightmgreen4{background-color: var(--lightmgreen4)}
+/* lightpink backgrounds */
+.bg-lightpink{background-color: var(--lightpink)}
+.bg-lightpink2{background-color: var(--lightpink2)}
+.bg-lightpink3{background-color: var(--lightpink3)}
+.bg-lightpink4{background-color: var(--lightpink4)}
+.bg-lightpink5{background-color: var(--lightpink5)}
+/* lightpurple backgrounds */
+.bg-lightpurple{background-color: var(--lightpurple)}
+.bg-lightpurple2{background-color: var(--lightpurple2)}
+.bg-lightpurple3{background-color: var(--lightpurple3)}
+.bg-lightpurple4{background-color: var(--lightpurple4)}
+/* lightred backgrounds */
+.bg-lightred{background-color: var(--lightred)}
+.bg-lightred2{background-color: var(--lightred2)}
+.bg-lightred3{background-color: var(--lightred3)}
+.bg-lightred4{background-color: var(--lightred4)}
+.bg-lightred5{background-color: var(--lightred5)}
+.bg-lightred6{background-color: var(--lightred6)}
+.bg-lightred7{background-color: var(--lightred7)}
+.bg-lightred8{background-color: var(--lightred8)}
+.bg-lightred9{background-color: var(--lightred9)}
+/* lightyellow backgrounds */
+.bg-lightyellow{background-color: var(--lightyellow)}
+.bg-lightyellow2{background-color: var(--lightyellow2)}
+.bg-lightyellow3{background-color: var(--lightyellow3)}
+.bg-lightyellow4{background-color: var(--lightyellow4)}
+.bg-lightyellow5{background-color: var(--lightyellow5)}
+.bg-lightyellow6{background-color: var(--lightyellow6)}
+.bg-lightyellow7{background-color: var(--lightyellow7)}
+.bg-lightyellow8{background-color: var(--lightyellow8)}
+/* mblue backgrounds */
+.bg-mblue{background-color: var(--mblue)}
+.bg-mblue2{background-color: var(--mblue2)}
+.bg-mblue3{background-color: var(--mblue3)}
+.bg-mblue4{background-color: var(--mblue4)}
+.bg-mblue5{background-color: var(--mblue5)}
+.bg-mblue6{background-color: var(--mblue6)}
+/* mgreen backgrounds */
+.bg-mgreen{background-color: var(--mgreen)}
+.bg-mgreen2{background-color: var(--mgreen2)}
+.bg-mgreen3{background-color: var(--mgreen3)}
+.bg-mgreen4{background-color: var(--mgreen4)}
+.bg-mgreen5{background-color: var(--mgreen5)}
+.bg-mgreen6{background-color: var(--mgreen6)}
+/* orange backgrounds */
+.bg-orange{background-color: var(--orange)}
+.bg-orange2{background-color: var(--orange2)}
+.bg-orange3{background-color: var(--orange3)}
+.bg-orange4{background-color: var(--orange4)}
+.bg-orange5{background-color: var(--orange5)}
+.bg-orange6{background-color: var(--orange6)}
+/* pink backgrounds */
+.bg-pink{background-color: var(--pink)}
+.bg-pink2{background-color: var(--pink2)}
+.bg-pink3{background-color: var(--pink3)}
+.bg-pink4{background-color: var(--pink4)}
+.bg-pink5{background-color: var(--pink5)}
+/* purple backgrounds */
+.bg-purple{background-color: var(--purple)}
+.bg-purple2{background-color: var(--purple2)}
+.bg-purple3{background-color: var(--purple3)}
+.bg-purple4{background-color: var(--purple4)}
+.bg-purple5{background-color: var(--purple5)}
+.bg-purple6{background-color: var(--purple6)}
+/* red backgrounds */
+.bg-red{background-color: var(--red)}
+.bg-red2{background-color: var(--red2)}
+.bg-red3{background-color: var(--red3)}
+.bg-red4{background-color: var(--red4)}
+.bg-red5{background-color: var(--red5)}
+.bg-red6{background-color: var(--red6)}
+.bg-red7{background-color: var(--red7)}
+.bg-red8{background-color: var(--red8)}
+.bg-red9{background-color: var(--red9)}
+.bg-red10{background-color: var(--red10)}
+.bg-red11{background-color: var(--red11)}
+.bg-red12{background-color: var(--red12)}
+/* redorange backgrounds */
+.bg-redorange{background-color: var(--redorange)}
+.bg-redorange2{background-color: var(--redorange2)}
+.bg-redorange3{background-color: var(--redorange3)}
+.bg-redorange4{background-color: var(--redorange4)}
+.bg-redorange5{background-color: var(--redorange5)}
+/* silver backgrounds */
+.bg-silver{background-color: var(--silver)}
+.bg-silver2{background-color: var(--silver2)}
+.bg-silver3{background-color: var(--silver3)}
+.bg-silver4{background-color: var(--silver4)}
+/* white backgrounds */
+.bg-white{background-color: var(--white)}
+.bg-white2{background-color: var(--white2)}
+.bg-white3{background-color: var(--white3)}
+.bg-white4{background-color: var(--white4)}
+.bg-white5{background-color: var(--white5)}
+/* wine backgrounds */
+.bg-wine{background-color: var(--wine)}
+.bg-wine2{background-color: var(--wine2)}
+.bg-wine3{background-color: var(--wine3)}
+.bg-wine4{background-color: var(--wine4)}
+.bg-wine5{background-color: var(--wine5)}
+.bg-wine6{background-color: var(--wine6)}
+/* yellorange backgrounds */
+.bg-yellorange{background-color: var(--yellorange)}
+.bg-yellorange2{background-color: var(--yellorange2)}
+.bg-yellorange3{background-color: var(--yellorange3)}
+.bg-yellorange4{background-color: var(--yellorange4)}
+/* yellow backgrounds */
+.bg-yellow{background-color: var(--yellow)}
+.bg-yellow2{background-color: var(--yellow2)}
+.bg-yellow3{background-color: var(--yellow3)}
+.bg-yellow4{background-color: var(--yellow4)}
+.bg-yellow5{background-color: var(--yellow5)}
+.bg-yellow6{background-color: var(--yellow6)}
+.bg-yellow7{background-color: var(--yellow7)}
+.bg-yellow8{background-color: var(--yellow8)}
+.bg-yellow9{background-color: var(--yellow9)}
+
+
+/* -------------------------- YDLP COLOR CLASSES -------------------------- */
+/* black colors */
+.black{color: var(--black)}
+/* mblue colors */
+.mblue3{color: var(--mblue3)}
+/* white colors */
+.white{color: var(--white)}
+.white2{color: var(--white2)}
+.white3{color: var(--white3)}
+.white4{color: var(--white4)}
+.white5{color: var(--white5)}
+
+/* alinhamento de box ( caixas ou divisoes ) */
+.box-c{
+    margin-left: var(--box-c-margin-left);
+    transform: var(--box-c-translate);
+}
+  
+/* alinhamento de texto ao centro */
+.c{
+    text-align: center;
+}
+.lf{
+    text-align: left
+}
+.rg{
+    text-align: right;
+}
+.j{
+    text-align: justify;
+}

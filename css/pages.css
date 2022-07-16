@@ -3,12 +3,16 @@ body{
 }
 h1, h2{
     text-shadow: 1px 1px black;
+    text-transform: uppercase;
 }
 h1{
     color: var(--green2);
 }
 h2{
     color: var(--yellorange);
+}
+article h3:first-child{
+    text-transform: uppercase;
 }
 header[class="container"]{
     width: 100%;
@@ -18,6 +22,12 @@ header[class="container"], footer{
 }
 section{
     margin-top: 5px;
+}
+section blockquote{
+    text-align: right;
+}
+ul li p{
+    margin-left: 20px;
 }
 .banner-container{
     width: 100%;
@@ -38,29 +48,29 @@ p{
 nav table{
     background-color: var(--black2);
     color: white;
-    width: 60%;
+    width: 90%;
     text-align: center;
 }
 nav td{
     border: solid 1px white;
-    width: 13%;
-    padding: 5px;
+    border: solid;
 }
 nav td[class="text"]{
-    width: 60%;
-    padding: 0px;
+    width: 50%;
+    border: solid;
 }
-nav table img{
+nav table figure{
     width: 100%;
+    height: 100%;
+    margin: 0%;
 }
-@media screen and (max-width:1081px) {
-    nav table img:hover{
-        width: 100%;
-        position: relative;
-        top: -15px;
-        background-color: var(--black2);
-        border-radius: 0px 100px 100px 100px;
+nav table figure img{
+    width: 80%;
+    height: 80%;
 }
+nav table figure:hover{
+    background-color: var(--grey3);
+    border-radius: 0px 100px 100px 100px;
 }
 footer{
     color: black;

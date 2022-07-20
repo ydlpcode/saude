@@ -283,11 +283,11 @@
     --silver3: rgb(165, 165, 165);
     --silver4: rgb(180, 180, 180);
 
-    --white: rgb(255, 255, 255);
-    --white2: rgb(240, 240, 240);
-    --white3: rgb(225, 225, 225);
-    --white4: rgb(210, 210, 210);
     --white5: rgb(195, 195, 195);
+    --white4: rgb(210, 210, 210);
+    --white3: rgb(225, 225, 225);
+    --white2: rgb(240, 240, 240);
+    --white: rgb(255, 255, 255);
 
     --wine: rgb(255, 0, 105);
     --wine2: rgb(255, 0, 120);
@@ -311,12 +311,6 @@
     --yellow7: rgb(255, 255, 90);
     --yellow8: rgb(255, 255, 105);
     --yellow9: rgb(255, 255, 120);
-
-
-/* ------ YDLP DIVISION CLASSES ------ */
-    
-    --box-c-margin-left: 50%;
-    --box-c-translate: translate(-50%);
 }
 
 
@@ -627,21 +621,316 @@
 /* -------------------------- YDLP COLOR CLASSES -------------------------- */
 /* black colors */
 .black{color: var(--black)}
+.black2{color: var(--black2)}
+.black3{color: var(--black3)}
+.black4{color: var(--black4)}
+.black5{color: var(--black5)}
+/* blue colors */
+.blue{color: var(--blue)}
+.blue2{color: var(--blue2)}
+.blue3{color: var(--blue3)}
+.blue4{color: var(--blue4)}
+.blue5{color: var(--blue5)}
+.blue6{color: var(--blue6)}
+.blue7{color: var(--blue7)}
+.blue8{color: var(--blue8)}
+.blue9{color: var(--blue9)}
+.blue10{color: var(--blue10)}
+.blue11{color: var(--blue11)}
+.blue12{color: var(--blue12)}
+/* brown colors */
+.brown{color: var(--brown)}
+.brown2{color: var(--brown2)}
+.brown3{color: var(--brown3)}
+.brown4{color: var(--brown4)}
+.brown5{color: var(--brown5)}
+.brown6{color: var(--brown6)}
+.brown7{color: var(--brown7)}
+.brown8{color: var(--brown8)}
+.brown9{color: var(--brown9)}
+.brown10{color: var(--brown10)}
+.brown11{color: var(--brown11)}
+/* cyan colors */
+.cyan{color: var(--cyan)}
+.cyan2{color: var(--cyan2)}
+.cyan3{color: var(--cyan3)}
+.cyan4{color: var(--cyan4)}
+.cyan5{color: var(--cyan5)}
+.cyan6{color: var(--cyan6)}
+.cyan7{color: var(--cyan7)}
+.cyan8{color: var(--cyan8)}
+.cyan9{color: var(--cyan9)}
+/* darkblue colors */
+.darkblue{color: var(--darkblue)}
+.darkblue2{color: var(--darkblue2)}
+.darkblue3{color: var(--darkblue3)}
+.darkblue4{color: var(--darkblue4)}
+.darkblue5{color: var(--darkblue5)}
+.darkblue6{color: var(--darkblue6)}
+.darkblue7{color: var(--darkblue7)}
+.darkblue8{color: var(--darkblue8)}
+.darkblue9{color: var(--darkblue9)}
+.darkblue10{color: var(--darkblue10)}
+.darkblue11{color: var(--darkblue11)}
+.darkblue12{color: var(--darkblue12)}
+/* darkgreen */
+.dargreen{color: var(--darkgreen)}
+.dargreen2{color: var(--darkgreen2)}
+.dargreen3{color: var(--darkgreen3)}
+.dargreen4{color: var(--darkgreen4)}
+.dargreen5{color: var(--darkgreen5)}
+.dargreen6{color: var(--darkgreen6)}
+.dargreen7{color: var(--darkgreen7)}
+.dargreen8{color: var(--darkgreen8)}
+.dargreen9{color: var(--darkgreen9)}
+.dargreen10{color: var(--darkgreen10)}
+.dargreen11{color: var(--darkgreen11)}
+.dargreen12{color: var(--darkgreen12)}
+/* darkmblue colors */
+.darkmblue{color: var(--darkmblue)}
+.darkmblue2{color: var(--darkmblue2)}
+.darkmblue3{color: var(--darkmblue3)}
+.darkmblue4{color: var(--darkmblue4)}
+.darkmblue5{color: var(--darkmblue5)}
+.darkmblue6{color: var(--darkmblue6)}
+/* darkmgreen colors */
+.darkmgreen{color: var(--darkmgreen)}
+.darkmgreen2{color: var(--darkmgreen2)}
+.darkmgreen3{color: var(--darkmgreen3)}
+.darkmgreen4{color: var(--darkmgreen4)}
+.darkmgreen5{color: var(--darkmgreen5)}
+.darkmgreen6{color: var(--darkmgreen6)}
+/* darkpink colors */
+.darkpink{color: var(--darkpink)}
+.darkpink2{color: var(--darkpink2)}
+.darkpink3{color: var(--darkpink3)}
+.darkpink4{color: var(--darkpink4)}
+.darkpink5{color: var(--darkpink5)}
+.darkpink6{color: var(--darkpink6)}
+/* darkpurple colors */
+.darkpurple{color: var(--darkpurple)}
+.darkpurple2{color: var(--darkpurple2)}
+.darkpurple3{color: var(--darkpurple3)}
+.darkpurple4{color: var(--darkpurple4)}
+.darkpurple5{color: var(--darkpurple5)}
+.darkpurple6{color: var(--darkpurple6)}
+/* darkred colors */
+.darkred{color: var(--darkred)}
+.darkred2{color: var(--darkred2)}
+.darkred3{color: var(--darkred3)}
+.darkred4{color: var(--darkred4)}
+.darkred5{color: var(--darkred5)}
+.darkred6{color: var(--darkred6)}
+.darkred7{color: var(--darkred7)}
+.darkred8{color: var(--darkred8)}
+.darkred9{color: var(--darkred9)}
+.darkred10{color: var(--darkred10)}
+.darkred11{color: var(--darkred11)}
+.darkred12{color: var(--darkred12)}
+/* darkwine colors */
+.darkwine{color: var(--darkwine)}
+.darkwine2{color: var(--darkwine2)}
+.darkwine3{color: var(--darkwine3)}
+.darkwine4{color: var(--darkwine4)}
+.darkwine5{color: var(--darkwine5)}
+.darkwine6{color: var(--darkwine6)}
+/* fuchsia colors */
+.fuchsia{color: var(--fuchsia)}
+.fuchsia2{color: var(--fuchsia2)}
+.fuchsia3{color: var(--fuchsia3)}
+.fuchsia4{color: var(--fuchsia4)}
+.fuchsia5{color: var(--fuchsia5)}
+.fuchsia6{color: var(--fuchsia6)}
+.fuchsia7{color: var(--fuchsia7)}
+.fuchsia8{color: var(--fuchsia8)}
+.fuchsia9{color: var(--fuchsia9)}
+/* green colors */
+.green{color: var(--green)}
+.green2{color: var(--green2)}
+.green3{color: var(--green3)}
+.green4{color: var(--green4)}
+.green5{color: var(--green5)}
+.green6{color: var(--green6)}
+.green7{color: var(--green7)}
+.green8{color: var(--green8)}
+.green9{color: var(--green9)}
+.green10{color: var(--green10)}
+.green11{color: var(--green11)}
+.green12{color: var(--green12)}
+/* grey colors */
+.grey{color: var(--grey)}
+.grey2{color: var(--grey2)}
+.grey3{color: var(--grey3)}
+.grey4{color: var(--grey4)}
+/* lightblue colors */
+.lightblue{color: var(--lightblue)}
+.lightblue2{color: var(--lightblue2)}
+.lightblue3{color: var(--lightblue3)}
+.lightblue4{color: var(--lightblue4)}
+.lightblue5{color: var(--lightblue5)}
+.lightblue6{color: var(--lightblue6)}
+.lightblue7{color: var(--lightblue7)}
+.lightblue8{color: var(--lightblue8)}
+.lightblue9{color: var(--lightblue9)}
+/* lightcyan colors */
+.lightcyan{color: var(--lightcyan)}
+.lightcyan2{color: var(--lightcyan2)}
+.lightcyan3{color: var(--lightcyan3)}
+.lightcyan4{color: var(--lightcyan4)}
+.lightcyan5{color: var(--lightcyan5)}
+.lightcyan6{color: var(--lightcyan6)}
+.lightcyan7{color: var(--lightcyan7)}
+.lightcyan8{color: var(--lightcyan8)}
+/* lightfuchsia colors */
+.lightfuchsia{color: var(--lightfuchsia)}
+.lightfuchsia2{color: var(--lightfuchsia2)}
+.lightfuchsia3{color: var(--lightfuchsia3)}
+.lightfuchsia4{color: var(--lightfuchsia4)}
+.lightfuchsia5{color: var(--lightfuchsia5)}
+.lightfuchsia6{color: var(--lightfuchsia6)}
+.lightfuchsia7{color: var(--lightfuchsia7)}
+.lightfuchsia8{color: var(--lightfuchsia8)}
+.lightfuchsia9{color: var(--lightfuchsia9)}
+.lightfuchsia10{color: var(--lightfuchsia10)}
+.lightfuchsia11{color: var(--lightfuchsia11)}
+.lightfuchsia12{color: var(--lightfuchsia12)}
+/* lightgreen colors */
+.lightgreen{color: var(--lightgreen)}
+.lightgreen2{color: var(--lightgreen2)}
+.lightgreen3{color: var(--lightgreen3)}
+.lightgreen4{color: var(--lightgreen4)}
+.lightgreen5{color: var(--lightgreen5)}
+.lightgreen6{color: var(--lightgreen6)}
+.lightgreen7{color: var(--lightgreen7)}
+.lightgreen8{color: var(--lightgreen8)}
+.lightgreen9{color: var(--lightgreen9)}
+/* lightmblue */
+.lightmblue{color: var(--lightmblue)}
+.lightmblue2{color: var(--lightmblue2)}
+.lightmblue3{color: var(--lightmblue3)}
+.lightmblue4{color: var(--lightmblue4)}
+/* lightmgreen */
+.lightmgreen{color: var(--lightmgreen)}
+.lightmgreen2{color: var(--lightmgreen2)}
+.lightmgreen3{color: var(--lightmgreen3)}
+.lightmgreen4{color: var(--lightmgreen4)}
+/* lightpink colors */
+.lightpink{color: var(--lightpink)}
+.lightpink2{color: var(--lightpink2)}
+.lightpink3{color: var(--lightpink3)}
+.lightpink4{color: var(--lightpink4)}
+.lightpink5{color: var(--lightpink5)}
+/* lightpurple colors */
+.lightpurple{color: var(--lightpurple)}
+.lightpurple2{color: var(--lightpurple2)}
+.lightpurple3{color: var(--lightpurple3)}
+.lightpurple4{color: var(--lightpurple4)}
+/* lightred colors */
+.lightred{color: var(--lightred)}
+.lightred2{color: var(--lightred2)}
+.lightred3{color: var(--lightred3)}
+.lightred4{color: var(--lightred4)}
+.lightred5{color: var(--lightred5)}
+.lightred6{color: var(--lightred6)}
+.lightred7{color: var(--lightred7)}
+.lightred8{color: var(--lightred8)}
+.lightred9{color: var(--lightred9)}
+/* lightyellow colors */
+.lightyellow{color: var(--lightyellow)}
+.lightyellow2{color: var(--lightyellow2)}
+.lightyellow3{color: var(--lightyellow3)}
+.lightyellow4{color: var(--lightyellow4)}
+.lightyellow5{color: var(--lightyellow5)}
+.lightyellow6{color: var(--lightyellow6)}
+.lightyellow7{color: var(--lightyellow7)}
+.lightyellow8{color: var(--lightyellow8)}
 /* mblue colors */
+.mblue{color: var(--mblue)}
+.mblue2{color: var(--mblue2)}
 .mblue3{color: var(--mblue3)}
+.mblue4{color: var(--mblue4)}
+.mblue5{color: var(--mblue5)}
+.mblue6{color: var(--mblue6)}
+/* mgreen colors */
+.mgreen{color: var(--mgreen)}
+.mgreen2{color: var(--mgreen2)}
+.mgreen3{color: var(--mgreen3)}
+.mgreen4{color: var(--mgreen4)}
+.mgreen5{color: var(--mgreen5)}
+.mgreen6{color: var(--mgreen6)}
+/* orange colors */
+.orange{color: var(--orange)}
+.orange2{color: var(--orange2)}
+.orange3{color: var(--orange3)}
+.orange4{color: var(--orange4)}
+.orange5{color: var(--orange5)}
+.orange6{color: var(--orange6)}
+/* pink colors */
+.pink{color: var(--pink)}
+.pink2{color: var(--pink2)}
+.pink3{color: var(--pink3)}
+.pink4{color: var(--pink4)}
+.pink5{color: var(--pink5)}
+/* purple colors */
+.purple{color: var(--purple);}
+.purple2{color: var(--purple2);}
+.purple3{color: var(--purple3);}
+.purple4{color: var(--purple4);}
+.purple5{color: var(--purple5);}
+.purple6{color: var(--purple6);}
+/* red colors */
+.red{color: var(--red)}
+.red2{color: var(--red2)}
+.red3{color: var(--red3)}
+.red4{color: var(--red4)}
+.red5{color: var(--red5)}
+.red6{color: var(--red6)}
+.red7{color: var(--red7)}
+.red8{color: var(--red8)}
+.red9{color: var(--red9)}
+.red10{color: var(--red10)}
+.red11{color: var(--red11)}
+.red12{color: var(--red12)}
+/* redorange colors */
+.redorange{color: var(--redorange)}
+.redorange2{color: var(--redorange2)}
+.redorange3{color: var(--redorange3)}
+.redorange4{color: var(--redorange4)}
+.redorange5{color: var(--redorange5)}
+/* silver colors */
+.silver{color: var(--silver)}
+.silver2{color: var(--silver2)}
+.silver3{color: var(--silver3)}
+.silver4{color: var(--silver4)}
 /* white colors */
 .white{color: var(--white)}
 .white2{color: var(--white2)}
 .white3{color: var(--white3)}
 .white4{color: var(--white4)}
 .white5{color: var(--white5)}
+/* wine colors */
+.wine{color: var(--wine)}
+.wine2{color: var(--wine2)}
+.wine3{color: var(--wine3)}
+.wine4{color: var(--wine4)}
+.wine5{color: var(--wine5)}
+.wine6{color: var(--wine6)}
+/* yellorange colors */
+.yellorange{color: var(--yellorange)}
+.yellorange2{color: var(--yellorange2)}
+.yellorange3{color: var(--yellorange3)}
+.yellorange4{color: var(--yellorange4)}
+/* yellow colors */
+.yellow{color: var(--yellow)}
+.yellow2{color: var(--yellow2)}
+.yellow3{color: var(--yellow3)}
+.yellow4{color: var(--yellow4)}
+.yellow5{color: var(--yellow5)}
+.yellow6{color: var(--yellow6)}
+.yellow7{color: var(--yellow7)}
+.yellow8{color: var(--yellow8)}
+.yellow9{color: var(--yellow9)}
 
-/* alinhamento de box ( caixas ou divisoes ) */
-.box-c{
-    margin-left: var(--box-c-margin-left);
-    transform: var(--box-c-translate);
-}
-  
 /* alinhamento de texto ao centro */
 .c{
     text-align: center;
